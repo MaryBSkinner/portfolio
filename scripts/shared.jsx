@@ -18,10 +18,16 @@ function useReveal(opts = {}) {
           }
         });
       },
-      { threshold: opts.threshold ?? 0.18, rootMargin: opts.rootMargin ?? '0px 0px -8% 0px' }
+      { threshold: opts.threshold ?? 0.01, rootMargin: opts.rootMargin ?? '0px 0px 12% 0px' }
     );
     io.observe(el);
-    return () => io.disconnect();
+    // Safety net: force reveal after 2.5s so nothing ever stays hidden
+    // (covers iOS Safari edge cases where IntersectionObserver can mis-fire).
+    const fallback = setTimeout(() => {
+      el.classList.add('in');
+      io.disconnect();
+    }, 2500);
+    return () => { io.disconnect(); clearTimeout(fallback); };
   }, []);
   return ref;
 }
