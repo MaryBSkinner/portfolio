@@ -292,7 +292,7 @@ function Gallery({ which }) {
           <img src="assets/angela-scott-shoes-2.jpg" alt="Heel-counter monogram patch" style={{objectFit:'cover', objectPosition:'center', transform:'scale(0.8)'}} />
         </RevealOnScroll>
         <RevealOnScroll className="shot shot-6" style={{background:'#ffffff'}}>
-          <img src="assets/angela-scott-sole.png" alt="Embossed sole detail" style={{objectFit:'contain', padding:'8%'}} />
+          <img src="assets/angela-scott-sole.jpg" alt="Embossed sole detail" style={{objectFit:'contain', padding:'8%'}} />
         </RevealOnScroll>
 
         <RevealOnScroll className="shot shot-12" style={{aspectRatio:'21/9', background:'#1a1a1a'}}>
@@ -379,7 +379,7 @@ function Gallery({ which }) {
       <section className="project-gallery">
         {/* Brand applied — van + uniform */}
         <RevealOnScroll className="shot shot-12" style={{aspectRatio:'16/9', background:'#FBF8F2'}}>
-          <img src="assets/bridge-applied.png" alt="Bridge — identity applied to van decal and uniform polo" style={{objectFit:'contain', objectPosition:'center'}} />
+          <img src="assets/bridge-applied.jpg" alt="Bridge — identity applied to van decal and uniform polo" style={{objectFit:'contain', objectPosition:'center'}} />
         </RevealOnScroll>
 
         {/* B-mark alone + primary lockup */}
@@ -403,7 +403,7 @@ function Gallery({ which }) {
 
         {/* Row 2 — logo over plated dish + b&w storefront, paired */}
         <RevealOnScroll className="shot shot-6" style={{aspectRatio:'1/1'}}>
-          <img src="assets/sage-logo-plate.png" alt="Sage Brooklyn — primary logo over signature pad thai" style={{objectFit:'cover', objectPosition:'center'}} />
+          <img src="assets/sage-logo-plate.jpg" alt="Sage Brooklyn — primary logo over signature pad thai" style={{objectFit:'cover', objectPosition:'center'}} />
         </RevealOnScroll>
         <RevealOnScroll className="shot shot-6" style={{aspectRatio:'1/1'}}>
           <img src="assets/sage-storefront.png" alt="Sage Brooklyn storefront — awning &amp; front display" style={{objectFit:'cover', objectPosition:'center'}} />
@@ -411,7 +411,7 @@ function Gallery({ which }) {
 
         {/* Row 3 — tuk-tuk, full width */}
         <RevealOnScroll className="shot shot-12" style={{aspectRatio:'16/9'}}>
-          <img src="assets/sage-tuktuk.png" alt="Sage Brooklyn — tuk-tuk and monogrammed patio entrance" style={{objectFit:'cover', objectPosition:'center'}} />
+          <img src="assets/sage-tuktuk.jpg" alt="Sage Brooklyn — tuk-tuk and monogrammed patio entrance" style={{objectFit:'cover', objectPosition:'center'}} />
         </RevealOnScroll>
       </section>
     );
