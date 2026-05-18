@@ -110,15 +110,15 @@ const PROJECTS = {
   },
   'bic': {
     eyebrow: 'Environmental Graphics · Installation',
-    titleParts: ['BIC'],
+    titleParts: ['BiC'],
     industry: 'Corporate Office · Anniversary Campaign',
     year: '2019',
     scope: 'Environmental Graphics · Type-driven Installation · Custom Lettering',
     yearLong: '2019 — Anniversary campaign',
-    intro: 'A series of <em>bold, type-driven wall installations</em> for BIC corporate offices — surprising employees, welcoming clients, and turning ordinary vestibules into a celebration of legacy.',
+    intro: 'A series of <em>bold, type-driven wall installations</em> for BiC corporate offices — surprising employees, welcoming clients, and turning ordinary vestibules into a celebration of legacy.',
     body: [
-      "BIC came to us to transform their corporate office entryways — both vestibules and reception walls — into vibrant, inspirational spaces in celebration of their anniversary. The goal was to surprise and delight employees while creating a welcoming experience for visiting clients.",
-      "We designed a series of bold, type-driven installations featuring motivational quotes and custom graphics that brought new energy to otherwise ordinary spaces. The result is a modern, dynamic entry that reflects BIC's legacy while inspiring everyone who walks through the doors.",
+      "BiC came to us to transform their corporate office entryways — both vestibules and reception walls — into vibrant, inspirational spaces in celebration of their anniversary. The goal was to surprise and delight employees while creating a welcoming experience for visiting clients.",
+      "We designed a series of bold, type-driven installations featuring motivational quotes and custom graphics that brought new energy to otherwise ordinary spaces. The result is a modern, dynamic entry that reflects BiC's legacy while inspiring everyone who walks through the doors.",
     ],
     quote: 'We create things. <em>Real, physical things you hold and use every day.</em>',
     quoteAttr: '<strong>BIC</strong>',
@@ -176,7 +176,6 @@ const PROJECTS = {
     yearLong: '2025',
     intro: 'Born from love. Built from loss. A brand for honoring lives the way they were <em>lived</em> — beautifully, fully, and in celebration.',
     body: [
-      "When my uncle Ken passed away unexpectedly, my family realized how hard it is to plan something that truly honors someone you love. We wanted to celebrate his life, not just mourn it. That experience stuck with me and my dad. So as we walked the Camino de Santiago together shortly after his passing, somewhere along those quiet miles, Last Hurrah was born.",
       "The logo is a quiet nod to Día de los Muertos — a tradition where loved ones are honored in beauty rather than in silence. The skull replaces the A in LAST and wears a floral crown in that same spirit. The skull also pulls out cleanly as a standalone logomark. In HURRAH the word was almost perfectly symmetrical to begin with, so flipping the R gave the mark a centered, balanced read. Together, the system feels like it carries many cultures inside it — respectful, celebratory, and human all at once.",
     ],
     quote: 'Every life deserves to be celebrated as <em>beautifully as it was lived.</em>',
